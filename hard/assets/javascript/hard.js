@@ -29,7 +29,21 @@
  *
  */
 
- (function(){
+(function(){
+
+$("h1").hover(function(){
+  $(this).css("color", "red");
+  }, function(){
+  $(this).css("color", "black");
+}); 
+
+$(".section-container section:even").hide();
+
+
+
+
+
+
 
    //jQuery equivelent to window.onload = function{}
    //code in here wont run until page loads
